@@ -1,5 +1,7 @@
 package test1;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,10 +15,17 @@ public class PracticewithJakya {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.facebook.com");
 		
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		
-		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("practicewithJakya@yahoo.com");
-		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("PracticePassword");
+		String Email="//*[@id='email']";
+		String pass="//*[@id='pass']";
+		String EmailValue = "practicewithJakya@yahoo.com";
+		String PassValue = "PracticePassword";
+		
+		driver.findElement(By.xpath(Email)).sendKeys(EmailValue);
+		driver.findElement(By.xpath(pass)).sendKeys(PassValue);
 
 	}
 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10393" started-at="2019-03-24T16:55:01Z" finished-at="2019-03-24T16:55:11Z">
+  <suite name="Default suite" duration-ms="33" started-at="2019-03-31T16:17:31Z" finished-at="2019-03-31T16:17:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10393" started-at="2019-03-24T16:55:01Z" finished-at="2019-03-24T16:55:11Z">
-      <class name="test1.PracticewithJakya">
-        <test-method status="PASS" signature="practicewithJkya()[pri:0, instance:test1.PracticewithJakya@64c64813]" name="practicewithJkya" duration-ms="10347" started-at="2019-03-24T12:55:01Z" finished-at="2019-03-24T12:55:11Z">
+    <test name="Default test" duration-ms="33" started-at="2019-03-31T16:17:31Z" finished-at="2019-03-31T16:17:31Z">
+      <class name="test1.TryAndCatch">
+        <test-method status="PASS" signature="trycatch()[pri:0, instance:test1.TryAndCatch@71e7a66b]" name="trycatch" duration-ms="24" started-at="2019-03-31T12:17:31Z" finished-at="2019-03-31T12:17:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practicewithJkya -->
-      </class> <!-- test1.PracticewithJakya -->
+        </test-method> <!-- trycatch -->
+      </class> <!-- test1.TryAndCatch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
